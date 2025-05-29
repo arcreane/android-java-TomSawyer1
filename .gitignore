@@ -1,0 +1,35 @@
+# Fichiers générés par les IDE (Android Studio, IntelliJ)
+.idea/
+*.iml
+.DS_Store
+
+# Fichiers et dossiers spécifiques à Gradle
+.gradle/
+build/
+build.gradle.kts
+settings.gradle.kts
+
+# Fichiers de configuration locaux
+local.properties
+
+# Sorties de compilation
+/app/build/
+backend/build/
+*/build/           # ignore tous les dossiers build dans tous les modules
+
+# NDK / CMake / Native
+.cxx/
+.externalNativeBuild/
+
+# Archives de build
+*.apk
+*.aab
+
+# Fichiers temporaires ou inutiles
+*.log
+*.fake
+captures/
+
+# Autres
+gradlew
+gradlew.bat
