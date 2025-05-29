@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GuardConnect</string>
+
+
+    <string name="welcome_meg">Bienvenue sur Guard Connect</string>
+    <string name="button_text_bat">Batiment</string>
+
+    <string name="button_gard">Gardien</string>
+    <string name="button_client">Locataire/Proprietaire</string>
+    <string name="button_who">Qui etes vous ?</string>
+    <string name="button_follow">Suivre votre incident</string>
+
+
+    <string name="form_title">Renseigner un incident </string>
+    <string name="name">Nom</string>
+    <string name="mail">Email</string>
+    <string name="step">Etages</string>
+    <string name="num_porte">N°porte</string>
+    <string name="description">Description</string>
+    <string name="photo">Photo</string>
+    <string name="submit">Soumettre</string>
+
+    <string name="num_incident">Numero d\'incident requis</string>
+    <string name="incident">N°Incident</string>
+
+</resources>

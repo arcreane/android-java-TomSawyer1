@@ -33,3 +33,7 @@ captures/
 # Autres
 gradlew
 gradlew.bat
+
+# Node.js dependencies
+node_modules/
+

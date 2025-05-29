@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs pour le thème sombre -->
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="orange_300">#FFB74D</color>
+    <color name="orange_200">#FFCC80</color>
+    
+    <color name="dark_surface">#121212</color>
+    <color name="dark_surface_variant">#1E1E1E</color>
+    <color name="dark_card_background">#272727</color>
+    <color name="grey_300">#E0E0E0</color>
+</resources> 

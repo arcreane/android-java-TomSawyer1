@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Inclusion de la Toolbar -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Titre -->
+    <TextView
+        android:id="@+id/wholog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/button_who"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Bouton Gardien -->
+    <Button
+        android:id="@+id/buttongard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wholog"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_gard"
+        android:textSize="20sp" />
+
+    <!-- Bouton Locataire -->
+    <Button
+        android:id="@+id/buttonloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttongard"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_client"
+        android:textSize="20sp" />
+
+    <!-- Bouton Suivi -->
+    <Button
+        android:id="@+id/buttonfol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonloc"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_follow"
+        android:textSize="20sp" />
+
+</RelativeLayout>

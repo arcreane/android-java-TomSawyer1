@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuardConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorSecondary">@color/orange_500</item>
+        <item name="colorSecondaryVariant">@color/orange_700</item>
+        <item name="colorSurface">@color/white_surface</item>
+        <item name="colorSurfaceVariant">@color/grey_100</item>
+        <item name="colorOnSurface">@color/black_800</item>
+        <item name="colorOnSurfaceVariant">@color/grey_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+        <!-- Card styles -->
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+    </style>
+
+    <style name="Theme.GuardConnect" parent="Base.Theme.GuardConnect" />
+    
+    <!-- Styles personnalisés -->
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="rippleColor">?attr/colorPrimaryVariant</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+    </style>
+    
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorPrimary</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+    </style>
+</resources>
